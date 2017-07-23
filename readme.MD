@@ -1,12 +1,12 @@
-# Project Title: Machine Learning as the Interface for Visualization
+# Machine Learning as the Interface for Visualization
 
-Author: Arjun Talpallikar
+#### Clemson University Visualization REU - Summer 2017
+<br>
+<b>Author:</b> Arjun Talpallikar
 
-REU PI: Dr. Oyewole Oyekoya, CCIT
+<b>REU PI:</b> Dr. Oyewole Oyekoya, CCIT
 
-Project Faculty Mentors: Dr. Andrew Robb, School of Computing
+<b>Project Faculty Mentors:</b> Dr. Andrew Robb, School of Computing<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dr. Jerome McClendon, Automotive Engineering
 
-			 Dr. Jerome McClendon, Automotive Engineering
-
-This is the final repository for my Summer REU project at Clemson University
-
+This is the final repository for my Summer REU project at Clemson University.

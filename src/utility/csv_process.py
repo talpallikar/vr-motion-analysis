@@ -115,7 +115,7 @@ def cont_read(file_name, has_header=True, keep_header=False):
             
                 if frame_counter != row[8]:
 
-                    data.append([row[2],row[5],row[6],row[8],row[10],row[11],row[12],row[13],row[14],row[15]])
+                    data.append([row[2],row[5],row[8],row[10],row[11],row[12],row[13],row[14],row[15]])
 
      #update the frame counter now that we are on a  new frame
                     frame_counter = row[8]
@@ -127,7 +127,7 @@ def cont_read(file_name, has_header=True, keep_header=False):
     return(data)
 
 def test():
-    print(cont_read('log_gait_1_RW.csv'))
+    print(cont_read('log_gait_1_RW.csv')[0])
 
 def main():
     test()

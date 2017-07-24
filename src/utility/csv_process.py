@@ -1,7 +1,7 @@
 import csv
 
 #read the bones that I want to read by frame
-def mixed_read(file_name, has_header=True):
+def mixed_read(file_name, has_header=True, keep_header=False):
     
     good_bones = [
     "HMD",
@@ -33,7 +33,8 @@ def mixed_read(file_name, has_header=True):
         
         if has_header:
             i = 1
-            data.append(header)            
+            if keep_header:
+                data.append(header)            
         else:
             i = 0
 
@@ -63,7 +64,7 @@ def mixed_read(file_name, has_header=True):
     return(data)
 
 #Read only the continuous variables - not the categorical variables
-def cont_read(file_name, has_header=True):
+def cont_read(file_name, has_header=True, keep_header=False):
     
     good_bones = [
     "HMD",
@@ -95,7 +96,8 @@ def cont_read(file_name, has_header=True):
         
         if has_header:
             i = 1
-            data.append(header)            
+            if keep_header:
+                data.append(header)            
         else:
             i = 0
 

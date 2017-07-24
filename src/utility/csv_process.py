@@ -106,7 +106,6 @@ def cont_read(file_name, has_header=True, keep_header=False):
         
         while i <  len(csv_list):
             row = list(map(lambda x: x.strip(), csv_list[i]))
-            print(row)
 
             #check if the row is of a useful bone
             
@@ -123,13 +122,12 @@ def cont_read(file_name, has_header=True, keep_header=False):
                     current_row += 1 
                 #otherwise, we need to add to the old frame
                 else:
-                    print(row)
-                    data[current_row].extend([row[10],row[11],row[12],row[13],row[14],row[1]])
+                    data[current_row-1].extend([row[10],row[11],row[12],row[13],row[14],row[15]])
             i+=1
     return(data)
 
 def test():
-    print(cont_read(path.join('data', 'log_gait_1_RW.csv'))[0])
+    print(cont_read('log_gait_1_RW.csv'))
 
 def main():
     test()

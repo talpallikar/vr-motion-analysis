@@ -107,7 +107,7 @@ def cont_read(file_name, has_header=True):
 
             #check if the row is of a useful bone
             
-            if row[9] in good_bones && row[6]=="Walking":
+            if (row[9] in good_bones) and (row[6]=="Walking"):
                 
                 #If the frame of the transform does not match the last frame, we need to create a new frame
             

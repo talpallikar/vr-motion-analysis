@@ -114,14 +114,15 @@ def cont_read(file_name, has_header=True, keep_header=False):
                 #If the frame of the transform does not match the last frame, we need to create a new frame
             
                 if frame_counter != row[8]:
-
-                    data.append([row[2],row[5],row[8],row[10],row[11],row[12],row[13],row[14],row[15]])
+                    #Keep the trial number, the frame number, and the positions + rotations
+                    data.append([row[2],row[8],row[10],row[11],row[12],row[13],row[14],row[15]])
 
      #update the frame counter now that we are on a  new frame
                     frame_counter = row[8]
                     current_row += 1 
                 #otherwise, we need to add to the old frame
                 else:
+                    #append the positions and rotations of the new  bone to the current frame
                     data[current_row-1].extend([row[10],row[11],row[12],row[13],row[14],row[15]])
             i+=1
     return(data)

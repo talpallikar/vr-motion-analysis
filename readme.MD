@@ -1,4 +1,6 @@
-# Machine Learning as the Interface for Visualization
+# Machine Learning as the Interface for Visualization:
+
+### A Simple Protocol for Conducting and Visualizing VR User Research
 
 #### Clemson University Visualization REU - Summer 2017
 <br>
@@ -12,3 +14,6 @@
 This is the final repository for my Summer REU project at Clemson University.
 
 Check out the blog of my experiences [here](https://visualization.sites.clemson.edu/visualization/2017/06/09/arjun-talpallikar/)
+<br>
+
+####Contents
